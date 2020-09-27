@@ -1,0 +1,170 @@
+[2020-09-26 17:00:03,076] {scheduler_job.py:154} INFO - Started process (PID=21091) to work on /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:00:03,084] {scheduler_job.py:1562} INFO - Processing file /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py for tasks to queue
+[2020-09-26 17:00:03,085] {logging_mixin.py:112} INFO - [2020-09-26 17:00:03,084] {dagbag.py:396} INFO - Filling up the DagBag from /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:00:03,093] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['core_concepts']) retrieved from /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:00:03,112] {scheduler_job.py:162} INFO - Processing /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py took 0.036 seconds
+[2020-09-26 17:00:07,091] {scheduler_job.py:154} INFO - Started process (PID=21095) to work on /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:00:07,099] {scheduler_job.py:1562} INFO - Processing file /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py for tasks to queue
+[2020-09-26 17:00:07,101] {logging_mixin.py:112} INFO - [2020-09-26 17:00:07,100] {dagbag.py:396} INFO - Filling up the DagBag from /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:00:07,111] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['core_concepts']) retrieved from /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:00:07,131] {scheduler_job.py:162} INFO - Processing /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py took 0.040 seconds
+[2020-09-26 17:00:11,100] {scheduler_job.py:154} INFO - Started process (PID=21100) to work on /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:00:11,108] {scheduler_job.py:1562} INFO - Processing file /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py for tasks to queue
+[2020-09-26 17:00:11,109] {logging_mixin.py:112} INFO - [2020-09-26 17:00:11,108] {dagbag.py:396} INFO - Filling up the DagBag from /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:00:11,119] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['core_concepts']) retrieved from /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:00:11,148] {scheduler_job.py:162} INFO - Processing /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py took 0.048 seconds
+[2020-09-26 17:00:15,112] {scheduler_job.py:154} INFO - Started process (PID=21112) to work on /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:00:15,118] {scheduler_job.py:1562} INFO - Processing file /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py for tasks to queue
+[2020-09-26 17:00:15,119] {logging_mixin.py:112} INFO - [2020-09-26 17:00:15,118] {dagbag.py:396} INFO - Filling up the DagBag from /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:00:15,127] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['core_concepts']) retrieved from /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:00:15,144] {scheduler_job.py:162} INFO - Processing /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py took 0.032 seconds
+[2020-09-26 17:00:19,141] {scheduler_job.py:154} INFO - Started process (PID=21124) to work on /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:00:19,147] {scheduler_job.py:1562} INFO - Processing file /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py for tasks to queue
+[2020-09-26 17:00:19,148] {logging_mixin.py:112} INFO - [2020-09-26 17:00:19,148] {dagbag.py:396} INFO - Filling up the DagBag from /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:00:19,156] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['core_concepts']) retrieved from /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:00:19,174] {scheduler_job.py:162} INFO - Processing /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py took 0.033 seconds
+[2020-09-26 17:00:23,152] {scheduler_job.py:154} INFO - Started process (PID=21137) to work on /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:00:23,162] {scheduler_job.py:1562} INFO - Processing file /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py for tasks to queue
+[2020-09-26 17:00:23,164] {logging_mixin.py:112} INFO - [2020-09-26 17:00:23,163] {dagbag.py:396} INFO - Filling up the DagBag from /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:00:23,177] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['core_concepts']) retrieved from /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:00:23,207] {scheduler_job.py:162} INFO - Processing /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py took 0.055 seconds
+[2020-09-26 17:00:27,159] {scheduler_job.py:154} INFO - Started process (PID=21149) to work on /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:00:27,170] {scheduler_job.py:1562} INFO - Processing file /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py for tasks to queue
+[2020-09-26 17:00:27,172] {logging_mixin.py:112} INFO - [2020-09-26 17:00:27,171] {dagbag.py:396} INFO - Filling up the DagBag from /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:00:27,184] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['core_concepts']) retrieved from /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:00:27,204] {scheduler_job.py:162} INFO - Processing /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py took 0.045 seconds
+[2020-09-26 17:00:31,170] {scheduler_job.py:154} INFO - Started process (PID=21153) to work on /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:00:31,177] {scheduler_job.py:1562} INFO - Processing file /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py for tasks to queue
+[2020-09-26 17:00:31,178] {logging_mixin.py:112} INFO - [2020-09-26 17:00:31,177] {dagbag.py:396} INFO - Filling up the DagBag from /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:00:31,186] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['core_concepts']) retrieved from /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:00:31,205] {scheduler_job.py:162} INFO - Processing /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py took 0.035 seconds
+[2020-09-26 17:00:35,189] {scheduler_job.py:154} INFO - Started process (PID=21165) to work on /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:00:35,200] {scheduler_job.py:1562} INFO - Processing file /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py for tasks to queue
+[2020-09-26 17:00:35,202] {logging_mixin.py:112} INFO - [2020-09-26 17:00:35,201] {dagbag.py:396} INFO - Filling up the DagBag from /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:00:35,215] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['core_concepts']) retrieved from /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:00:35,243] {scheduler_job.py:162} INFO - Processing /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py took 0.055 seconds
+[2020-09-26 17:00:39,216] {scheduler_job.py:154} INFO - Started process (PID=21177) to work on /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:00:39,226] {scheduler_job.py:1562} INFO - Processing file /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py for tasks to queue
+[2020-09-26 17:00:39,228] {logging_mixin.py:112} INFO - [2020-09-26 17:00:39,228] {dagbag.py:396} INFO - Filling up the DagBag from /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:00:39,242] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['core_concepts']) retrieved from /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:00:39,269] {scheduler_job.py:162} INFO - Processing /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py took 0.053 seconds
+[2020-09-26 17:00:43,221] {scheduler_job.py:154} INFO - Started process (PID=21191) to work on /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:00:43,230] {scheduler_job.py:1562} INFO - Processing file /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py for tasks to queue
+[2020-09-26 17:00:43,232] {logging_mixin.py:112} INFO - [2020-09-26 17:00:43,232] {dagbag.py:396} INFO - Filling up the DagBag from /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:00:43,246] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['core_concepts']) retrieved from /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:00:43,272] {scheduler_job.py:162} INFO - Processing /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py took 0.052 seconds
+[2020-09-26 17:00:47,239] {scheduler_job.py:154} INFO - Started process (PID=21196) to work on /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:00:47,250] {scheduler_job.py:1562} INFO - Processing file /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py for tasks to queue
+[2020-09-26 17:00:47,252] {logging_mixin.py:112} INFO - [2020-09-26 17:00:47,251] {dagbag.py:396} INFO - Filling up the DagBag from /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:00:47,267] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['core_concepts']) retrieved from /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:00:47,294] {scheduler_job.py:162} INFO - Processing /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py took 0.055 seconds
+[2020-09-26 17:00:51,251] {scheduler_job.py:154} INFO - Started process (PID=21200) to work on /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:00:51,262] {scheduler_job.py:1562} INFO - Processing file /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py for tasks to queue
+[2020-09-26 17:00:51,263] {logging_mixin.py:112} INFO - [2020-09-26 17:00:51,263] {dagbag.py:396} INFO - Filling up the DagBag from /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:00:51,276] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['core_concepts']) retrieved from /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:00:51,306] {scheduler_job.py:162} INFO - Processing /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py took 0.055 seconds
+[2020-09-26 17:00:55,269] {scheduler_job.py:154} INFO - Started process (PID=21213) to work on /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:00:55,280] {scheduler_job.py:1562} INFO - Processing file /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py for tasks to queue
+[2020-09-26 17:00:55,282] {logging_mixin.py:112} INFO - [2020-09-26 17:00:55,281] {dagbag.py:396} INFO - Filling up the DagBag from /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:00:55,297] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['core_concepts']) retrieved from /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:00:55,326] {scheduler_job.py:162} INFO - Processing /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py took 0.058 seconds
+[2020-09-26 17:00:59,294] {scheduler_job.py:154} INFO - Started process (PID=21222) to work on /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:00:59,304] {scheduler_job.py:1562} INFO - Processing file /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py for tasks to queue
+[2020-09-26 17:00:59,306] {logging_mixin.py:112} INFO - [2020-09-26 17:00:59,305] {dagbag.py:396} INFO - Filling up the DagBag from /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:00:59,320] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['core_concepts']) retrieved from /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:00:59,346] {scheduler_job.py:162} INFO - Processing /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py took 0.053 seconds
+[2020-09-26 17:01:03,299] {scheduler_job.py:154} INFO - Started process (PID=21235) to work on /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:01:03,312] {scheduler_job.py:1562} INFO - Processing file /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py for tasks to queue
+[2020-09-26 17:01:03,315] {logging_mixin.py:112} INFO - [2020-09-26 17:01:03,314] {dagbag.py:396} INFO - Filling up the DagBag from /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:01:03,328] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['core_concepts']) retrieved from /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:01:03,357] {scheduler_job.py:162} INFO - Processing /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py took 0.058 seconds
+[2020-09-26 17:01:07,314] {scheduler_job.py:154} INFO - Started process (PID=21248) to work on /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:01:07,325] {scheduler_job.py:1562} INFO - Processing file /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py for tasks to queue
+[2020-09-26 17:01:07,326] {logging_mixin.py:112} INFO - [2020-09-26 17:01:07,326] {dagbag.py:396} INFO - Filling up the DagBag from /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:01:07,339] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['core_concepts']) retrieved from /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:01:07,367] {scheduler_job.py:162} INFO - Processing /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py took 0.053 seconds
+[2020-09-26 17:01:11,325] {scheduler_job.py:154} INFO - Started process (PID=21260) to work on /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:01:11,335] {scheduler_job.py:1562} INFO - Processing file /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py for tasks to queue
+[2020-09-26 17:01:11,337] {logging_mixin.py:112} INFO - [2020-09-26 17:01:11,336] {dagbag.py:396} INFO - Filling up the DagBag from /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:01:11,350] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['core_concepts']) retrieved from /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:01:11,379] {scheduler_job.py:162} INFO - Processing /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py took 0.054 seconds
+[2020-09-26 17:01:15,326] {scheduler_job.py:154} INFO - Started process (PID=21272) to work on /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:01:15,333] {scheduler_job.py:1562} INFO - Processing file /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py for tasks to queue
+[2020-09-26 17:01:15,334] {logging_mixin.py:112} INFO - [2020-09-26 17:01:15,334] {dagbag.py:396} INFO - Filling up the DagBag from /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:01:15,344] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['core_concepts']) retrieved from /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:01:15,367] {scheduler_job.py:162} INFO - Processing /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py took 0.042 seconds
+[2020-09-26 17:01:19,360] {scheduler_job.py:154} INFO - Started process (PID=21277) to work on /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:01:19,371] {scheduler_job.py:1562} INFO - Processing file /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py for tasks to queue
+[2020-09-26 17:01:19,373] {logging_mixin.py:112} INFO - [2020-09-26 17:01:19,372] {dagbag.py:396} INFO - Filling up the DagBag from /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:01:19,391] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['core_concepts']) retrieved from /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:01:19,413] {scheduler_job.py:162} INFO - Processing /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py took 0.053 seconds
+[2020-09-26 17:01:23,356] {scheduler_job.py:154} INFO - Started process (PID=21290) to work on /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:01:23,364] {scheduler_job.py:1562} INFO - Processing file /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py for tasks to queue
+[2020-09-26 17:01:23,365] {logging_mixin.py:112} INFO - [2020-09-26 17:01:23,364] {dagbag.py:396} INFO - Filling up the DagBag from /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:01:23,374] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['core_concepts']) retrieved from /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:01:23,394] {scheduler_job.py:162} INFO - Processing /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py took 0.039 seconds
+[2020-09-26 17:01:27,376] {scheduler_job.py:154} INFO - Started process (PID=21302) to work on /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:01:27,388] {scheduler_job.py:1562} INFO - Processing file /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py for tasks to queue
+[2020-09-26 17:01:27,389] {logging_mixin.py:112} INFO - [2020-09-26 17:01:27,389] {dagbag.py:396} INFO - Filling up the DagBag from /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:01:27,403] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['core_concepts']) retrieved from /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:01:27,430] {scheduler_job.py:162} INFO - Processing /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py took 0.054 seconds
+[2020-09-26 17:01:31,393] {scheduler_job.py:154} INFO - Started process (PID=21314) to work on /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:01:31,404] {scheduler_job.py:1562} INFO - Processing file /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py for tasks to queue
+[2020-09-26 17:01:31,406] {logging_mixin.py:112} INFO - [2020-09-26 17:01:31,405] {dagbag.py:396} INFO - Filling up the DagBag from /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:01:31,419] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['core_concepts']) retrieved from /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:01:31,441] {scheduler_job.py:162} INFO - Processing /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py took 0.049 seconds
+[2020-09-26 17:01:35,404] {scheduler_job.py:154} INFO - Started process (PID=21319) to work on /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:01:35,414] {scheduler_job.py:1562} INFO - Processing file /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py for tasks to queue
+[2020-09-26 17:01:35,416] {logging_mixin.py:112} INFO - [2020-09-26 17:01:35,415] {dagbag.py:396} INFO - Filling up the DagBag from /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:01:35,430] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['core_concepts']) retrieved from /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:01:35,459] {scheduler_job.py:162} INFO - Processing /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py took 0.056 seconds
+[2020-09-26 17:01:39,428] {scheduler_job.py:154} INFO - Started process (PID=21332) to work on /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:01:39,439] {scheduler_job.py:1562} INFO - Processing file /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py for tasks to queue
+[2020-09-26 17:01:39,440] {logging_mixin.py:112} INFO - [2020-09-26 17:01:39,440] {dagbag.py:396} INFO - Filling up the DagBag from /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:01:39,455] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['core_concepts']) retrieved from /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:01:39,477] {scheduler_job.py:162} INFO - Processing /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py took 0.050 seconds
+[2020-09-26 17:01:43,435] {scheduler_job.py:154} INFO - Started process (PID=21344) to work on /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:01:43,445] {scheduler_job.py:1562} INFO - Processing file /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py for tasks to queue
+[2020-09-26 17:01:43,447] {logging_mixin.py:112} INFO - [2020-09-26 17:01:43,446] {dagbag.py:396} INFO - Filling up the DagBag from /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:01:43,461] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['core_concepts']) retrieved from /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:01:43,488] {scheduler_job.py:162} INFO - Processing /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py took 0.053 seconds
+[2020-09-26 17:01:47,451] {scheduler_job.py:154} INFO - Started process (PID=21356) to work on /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:01:47,464] {scheduler_job.py:1562} INFO - Processing file /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py for tasks to queue
+[2020-09-26 17:01:47,467] {logging_mixin.py:112} INFO - [2020-09-26 17:01:47,466] {dagbag.py:396} INFO - Filling up the DagBag from /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:01:47,484] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['core_concepts']) retrieved from /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:01:47,513] {scheduler_job.py:162} INFO - Processing /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py took 0.062 seconds
+[2020-09-26 17:01:51,461] {scheduler_job.py:154} INFO - Started process (PID=21368) to work on /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:01:51,471] {scheduler_job.py:1562} INFO - Processing file /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py for tasks to queue
+[2020-09-26 17:01:51,472] {logging_mixin.py:112} INFO - [2020-09-26 17:01:51,472] {dagbag.py:396} INFO - Filling up the DagBag from /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:01:51,485] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['core_concepts']) retrieved from /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:01:51,511] {scheduler_job.py:162} INFO - Processing /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py took 0.050 seconds
+[2020-09-26 17:01:55,475] {scheduler_job.py:154} INFO - Started process (PID=21373) to work on /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:01:55,486] {scheduler_job.py:1562} INFO - Processing file /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py for tasks to queue
+[2020-09-26 17:01:55,488] {logging_mixin.py:112} INFO - [2020-09-26 17:01:55,487] {dagbag.py:396} INFO - Filling up the DagBag from /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:01:55,503] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['core_concepts']) retrieved from /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:01:55,528] {scheduler_job.py:162} INFO - Processing /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py took 0.052 seconds
+[2020-09-26 17:01:59,503] {scheduler_job.py:154} INFO - Started process (PID=21386) to work on /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:01:59,514] {scheduler_job.py:1562} INFO - Processing file /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py for tasks to queue
+[2020-09-26 17:01:59,515] {logging_mixin.py:112} INFO - [2020-09-26 17:01:59,515] {dagbag.py:396} INFO - Filling up the DagBag from /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:01:59,529] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['core_concepts']) retrieved from /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:01:59,559] {scheduler_job.py:162} INFO - Processing /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py took 0.056 seconds
+[2020-09-26 17:02:03,507] {scheduler_job.py:154} INFO - Started process (PID=21401) to work on /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:02:03,517] {scheduler_job.py:1562} INFO - Processing file /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py for tasks to queue
+[2020-09-26 17:02:03,519] {logging_mixin.py:112} INFO - [2020-09-26 17:02:03,518] {dagbag.py:396} INFO - Filling up the DagBag from /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:02:03,533] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['core_concepts']) retrieved from /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:02:03,575] {scheduler_job.py:162} INFO - Processing /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py took 0.068 seconds
+[2020-09-26 17:02:07,522] {scheduler_job.py:154} INFO - Started process (PID=21406) to work on /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:02:07,533] {scheduler_job.py:1562} INFO - Processing file /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py for tasks to queue
+[2020-09-26 17:02:07,535] {logging_mixin.py:112} INFO - [2020-09-26 17:02:07,534] {dagbag.py:396} INFO - Filling up the DagBag from /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:02:07,549] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['core_concepts']) retrieved from /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:02:07,577] {scheduler_job.py:162} INFO - Processing /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py took 0.055 seconds
+[2020-09-26 17:02:23,622] {scheduler_job.py:154} INFO - Started process (PID=21556) to work on /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:02:23,634] {scheduler_job.py:1562} INFO - Processing file /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py for tasks to queue
+[2020-09-26 17:02:23,635] {logging_mixin.py:112} INFO - [2020-09-26 17:02:23,635] {dagbag.py:396} INFO - Filling up the DagBag from /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:02:23,650] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['core_concepts']) retrieved from /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:02:23,679] {scheduler_job.py:162} INFO - Processing /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py took 0.057 seconds
+[2020-09-26 17:02:38,354] {scheduler_job.py:154} INFO - Started process (PID=21573) to work on /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:02:38,366] {scheduler_job.py:1562} INFO - Processing file /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py for tasks to queue
+[2020-09-26 17:02:38,367] {logging_mixin.py:112} INFO - [2020-09-26 17:02:38,367] {dagbag.py:396} INFO - Filling up the DagBag from /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:02:38,381] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['core_concepts']) retrieved from /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py
+[2020-09-26 17:02:38,409] {scheduler_job.py:162} INFO - Processing /Users/jingyizhou/desktop/airflow-tutorial/dags/core_concepts.py took 0.055 seconds

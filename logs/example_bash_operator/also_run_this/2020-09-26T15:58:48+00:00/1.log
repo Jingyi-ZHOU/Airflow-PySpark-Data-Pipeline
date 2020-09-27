@@ -1,0 +1,19 @@
+[2020-09-26 09:00:39,908] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: example_bash_operator.also_run_this 2020-09-26T15:58:48+00:00 [queued]>
+[2020-09-26 09:00:39,915] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: example_bash_operator.also_run_this 2020-09-26T15:58:48+00:00 [queued]>
+[2020-09-26 09:00:39,915] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-09-26 09:00:39,915] {taskinstance.py:880} INFO - Starting attempt 1 of 1
+[2020-09-26 09:00:39,915] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-09-26 09:00:39,922] {taskinstance.py:900} INFO - Executing <Task(BashOperator): also_run_this> on 2020-09-26T15:58:48+00:00
+[2020-09-26 09:00:39,925] {standard_task_runner.py:53} INFO - Started process 90163 to run task
+[2020-09-26 09:00:39,972] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: example_bash_operator.also_run_this 2020-09-26T15:58:48+00:00 [running]> 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
+[2020-09-26 09:00:39,987] {bash_operator.py:82} INFO - Tmp dir root location: 
+ /var/folders/zt/cl_z4pfj4d5fs8dfnhz23whh0000gn/T
+[2020-09-26 09:00:39,988] {bash_operator.py:105} INFO - Temporary script location: /var/folders/zt/cl_z4pfj4d5fs8dfnhz23whh0000gn/T/airflowtmp21fcjo2e/also_run_this__ropdfj
+[2020-09-26 09:00:39,989] {bash_operator.py:115} INFO - Running command: echo "run_id=manual__2020-09-26T15:58:48+00:00 | dag_run=<DagRun example_bash_operator @ 2020-09-26 15:58:48+00:00: manual__2020-09-26T15:58:48+00:00, externally triggered: True>"
+[2020-09-26 09:00:39,995] {bash_operator.py:122} INFO - Output:
+[2020-09-26 09:00:39,998] {bash_operator.py:126} INFO - run_id=manual__2020-09-26T15:58:48+00:00 | dag_run=<DagRun example_bash_operator @ 2020-09-26 15:58:48+00:00: manual__2020-09-26T15:58:48+00:00, externally triggered: True>
+[2020-09-26 09:00:39,999] {bash_operator.py:130} INFO - Command exited with return code 0
+[2020-09-26 09:00:40,006] {taskinstance.py:1065} INFO - Marking task as SUCCESS.dag_id=example_bash_operator, task_id=also_run_this, execution_date=20200926T155848, start_date=20200926T160039, end_date=20200926T160040
+[2020-09-26 09:00:49,910] {logging_mixin.py:112} INFO - [2020-09-26 09:00:49,910] {local_task_job.py:103} INFO - Task exited with return code 0

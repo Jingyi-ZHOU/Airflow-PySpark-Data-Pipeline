@@ -1,0 +1,586 @@
+[2020-09-26 17:00:01,064] {scheduler_job.py:154} INFO - Started process (PID=21089) to work on /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:00:01,071] {scheduler_job.py:1562} INFO - Processing file /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py for tasks to queue
+[2020-09-26 17:00:01,072] {logging_mixin.py:112} INFO - [2020-09-26 17:00:01,072] {dagbag.py:396} INFO - Filling up the DagBag from /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:00:01,080] {logging_mixin.py:112} INFO - [2020-09-26 17:00:01,078] {dagbag.py:239} ERROR - Failed to import: /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+Traceback (most recent call last):
+  File "/Users/jingyizhou/opt/anaconda3/envs/airflow-tutorial/lib/python3.7/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/jingyizhou/opt/anaconda3/envs/airflow-tutorial/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py", line 85, in <module>
+    list_files >> load_data >> create_table >> move_files
+NameError: name 'move_files' is not defined
+[2020-09-26 17:00:01,082] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:00:01,093] {scheduler_job.py:162} INFO - Processing /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py took 0.029 seconds
+[2020-09-26 17:00:05,082] {scheduler_job.py:154} INFO - Started process (PID=21093) to work on /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:00:05,089] {scheduler_job.py:1562} INFO - Processing file /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py for tasks to queue
+[2020-09-26 17:00:05,090] {logging_mixin.py:112} INFO - [2020-09-26 17:00:05,090] {dagbag.py:396} INFO - Filling up the DagBag from /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:00:05,097] {logging_mixin.py:112} INFO - [2020-09-26 17:00:05,096] {dagbag.py:239} ERROR - Failed to import: /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+Traceback (most recent call last):
+  File "/Users/jingyizhou/opt/anaconda3/envs/airflow-tutorial/lib/python3.7/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/jingyizhou/opt/anaconda3/envs/airflow-tutorial/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py", line 85, in <module>
+    list_files >> load_data >> create_table >> move_files
+NameError: name 'move_files' is not defined
+[2020-09-26 17:00:05,099] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:00:05,108] {scheduler_job.py:162} INFO - Processing /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py took 0.027 seconds
+[2020-09-26 17:00:09,094] {scheduler_job.py:154} INFO - Started process (PID=21097) to work on /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:00:09,101] {scheduler_job.py:1562} INFO - Processing file /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py for tasks to queue
+[2020-09-26 17:00:09,102] {logging_mixin.py:112} INFO - [2020-09-26 17:00:09,102] {dagbag.py:396} INFO - Filling up the DagBag from /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:00:09,110] {logging_mixin.py:112} INFO - [2020-09-26 17:00:09,109] {dagbag.py:239} ERROR - Failed to import: /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+Traceback (most recent call last):
+  File "/Users/jingyizhou/opt/anaconda3/envs/airflow-tutorial/lib/python3.7/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/jingyizhou/opt/anaconda3/envs/airflow-tutorial/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py", line 85, in <module>
+    list_files >> load_data >> create_table >> move_files
+NameError: name 'move_files' is not defined
+[2020-09-26 17:00:09,112] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:00:09,122] {scheduler_job.py:162} INFO - Processing /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py took 0.028 seconds
+[2020-09-26 17:00:13,107] {scheduler_job.py:154} INFO - Started process (PID=21110) to work on /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:00:13,118] {scheduler_job.py:1562} INFO - Processing file /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py for tasks to queue
+[2020-09-26 17:00:13,119] {logging_mixin.py:112} INFO - [2020-09-26 17:00:13,119] {dagbag.py:396} INFO - Filling up the DagBag from /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:00:13,133] {logging_mixin.py:112} INFO - [2020-09-26 17:00:13,130] {dagbag.py:239} ERROR - Failed to import: /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+Traceback (most recent call last):
+  File "/Users/jingyizhou/opt/anaconda3/envs/airflow-tutorial/lib/python3.7/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/jingyizhou/opt/anaconda3/envs/airflow-tutorial/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py", line 85, in <module>
+    list_files >> load_data >> create_table >> move_files
+NameError: name 'move_files' is not defined
+[2020-09-26 17:00:13,135] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:00:13,149] {scheduler_job.py:162} INFO - Processing /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py took 0.041 seconds
+[2020-09-26 17:00:17,121] {scheduler_job.py:154} INFO - Started process (PID=21122) to work on /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:00:17,130] {scheduler_job.py:1562} INFO - Processing file /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py for tasks to queue
+[2020-09-26 17:00:17,131] {logging_mixin.py:112} INFO - [2020-09-26 17:00:17,130] {dagbag.py:396} INFO - Filling up the DagBag from /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:00:17,138] {logging_mixin.py:112} INFO - [2020-09-26 17:00:17,137] {dagbag.py:239} ERROR - Failed to import: /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+Traceback (most recent call last):
+  File "/Users/jingyizhou/opt/anaconda3/envs/airflow-tutorial/lib/python3.7/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/jingyizhou/opt/anaconda3/envs/airflow-tutorial/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py", line 85, in <module>
+    list_files >> load_data >> create_table >> move_files
+NameError: name 'move_files' is not defined
+[2020-09-26 17:00:17,139] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:00:17,149] {scheduler_job.py:162} INFO - Processing /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py took 0.028 seconds
+[2020-09-26 17:00:21,143] {scheduler_job.py:154} INFO - Started process (PID=21126) to work on /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:00:21,153] {scheduler_job.py:1562} INFO - Processing file /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py for tasks to queue
+[2020-09-26 17:00:21,155] {logging_mixin.py:112} INFO - [2020-09-26 17:00:21,154] {dagbag.py:396} INFO - Filling up the DagBag from /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:00:21,168] {logging_mixin.py:112} INFO - [2020-09-26 17:00:21,166] {dagbag.py:239} ERROR - Failed to import: /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+Traceback (most recent call last):
+  File "/Users/jingyizhou/opt/anaconda3/envs/airflow-tutorial/lib/python3.7/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/jingyizhou/opt/anaconda3/envs/airflow-tutorial/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py", line 85, in <module>
+    list_files >> load_data >> create_table >> move_files
+NameError: name 'move_files' is not defined
+[2020-09-26 17:00:21,171] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:00:21,186] {scheduler_job.py:162} INFO - Processing /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py took 0.043 seconds
+[2020-09-26 17:00:25,158] {scheduler_job.py:154} INFO - Started process (PID=21139) to work on /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:00:25,169] {scheduler_job.py:1562} INFO - Processing file /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py for tasks to queue
+[2020-09-26 17:00:25,170] {logging_mixin.py:112} INFO - [2020-09-26 17:00:25,170] {dagbag.py:396} INFO - Filling up the DagBag from /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:00:25,182] {logging_mixin.py:112} INFO - [2020-09-26 17:00:25,180] {dagbag.py:239} ERROR - Failed to import: /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+Traceback (most recent call last):
+  File "/Users/jingyizhou/opt/anaconda3/envs/airflow-tutorial/lib/python3.7/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/jingyizhou/opt/anaconda3/envs/airflow-tutorial/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py", line 85, in <module>
+    list_files >> load_data >> create_table >> move_files
+NameError: name 'move_files' is not defined
+[2020-09-26 17:00:25,184] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:00:25,199] {scheduler_job.py:162} INFO - Processing /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py took 0.041 seconds
+[2020-09-26 17:00:29,183] {scheduler_job.py:154} INFO - Started process (PID=21151) to work on /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:00:29,193] {scheduler_job.py:1562} INFO - Processing file /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py for tasks to queue
+[2020-09-26 17:00:29,195] {logging_mixin.py:112} INFO - [2020-09-26 17:00:29,194] {dagbag.py:396} INFO - Filling up the DagBag from /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:00:29,208] {logging_mixin.py:112} INFO - [2020-09-26 17:00:29,206] {dagbag.py:239} ERROR - Failed to import: /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+Traceback (most recent call last):
+  File "/Users/jingyizhou/opt/anaconda3/envs/airflow-tutorial/lib/python3.7/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/jingyizhou/opt/anaconda3/envs/airflow-tutorial/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py", line 85, in <module>
+    list_files >> load_data >> create_table >> move_files
+NameError: name 'move_files' is not defined
+[2020-09-26 17:00:29,210] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:00:29,224] {scheduler_job.py:162} INFO - Processing /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py took 0.042 seconds
+[2020-09-26 17:00:33,185] {scheduler_job.py:154} INFO - Started process (PID=21163) to work on /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:00:33,195] {scheduler_job.py:1562} INFO - Processing file /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py for tasks to queue
+[2020-09-26 17:00:33,197] {logging_mixin.py:112} INFO - [2020-09-26 17:00:33,196] {dagbag.py:396} INFO - Filling up the DagBag from /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:00:33,209] {logging_mixin.py:112} INFO - [2020-09-26 17:00:33,207] {dagbag.py:239} ERROR - Failed to import: /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+Traceback (most recent call last):
+  File "/Users/jingyizhou/opt/anaconda3/envs/airflow-tutorial/lib/python3.7/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/jingyizhou/opt/anaconda3/envs/airflow-tutorial/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py", line 85, in <module>
+    list_files >> load_data >> create_table >> move_files
+NameError: name 'move_files' is not defined
+[2020-09-26 17:00:33,211] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:00:33,226] {scheduler_job.py:162} INFO - Processing /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py took 0.041 seconds
+[2020-09-26 17:00:37,191] {scheduler_job.py:154} INFO - Started process (PID=21175) to work on /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:00:37,198] {scheduler_job.py:1562} INFO - Processing file /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py for tasks to queue
+[2020-09-26 17:00:37,200] {logging_mixin.py:112} INFO - [2020-09-26 17:00:37,199] {dagbag.py:396} INFO - Filling up the DagBag from /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:00:37,210] {logging_mixin.py:112} INFO - [2020-09-26 17:00:37,209] {dagbag.py:239} ERROR - Failed to import: /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+Traceback (most recent call last):
+  File "/Users/jingyizhou/opt/anaconda3/envs/airflow-tutorial/lib/python3.7/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/jingyizhou/opt/anaconda3/envs/airflow-tutorial/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py", line 85, in <module>
+    list_files >> load_data >> create_table >> move_files
+NameError: name 'move_files' is not defined
+[2020-09-26 17:00:37,212] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:00:37,223] {scheduler_job.py:162} INFO - Processing /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py took 0.032 seconds
+[2020-09-26 17:00:41,214] {scheduler_job.py:154} INFO - Started process (PID=21179) to work on /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:00:41,224] {scheduler_job.py:1562} INFO - Processing file /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py for tasks to queue
+[2020-09-26 17:00:41,226] {logging_mixin.py:112} INFO - [2020-09-26 17:00:41,225] {dagbag.py:396} INFO - Filling up the DagBag from /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:00:41,238] {logging_mixin.py:112} INFO - [2020-09-26 17:00:41,236] {dagbag.py:239} ERROR - Failed to import: /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+Traceback (most recent call last):
+  File "/Users/jingyizhou/opt/anaconda3/envs/airflow-tutorial/lib/python3.7/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/jingyizhou/opt/anaconda3/envs/airflow-tutorial/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py", line 85, in <module>
+    list_files >> load_data >> create_table >> move_files
+NameError: name 'move_files' is not defined
+[2020-09-26 17:00:41,241] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:00:41,257] {scheduler_job.py:162} INFO - Processing /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py took 0.044 seconds
+[2020-09-26 17:00:45,228] {scheduler_job.py:154} INFO - Started process (PID=21194) to work on /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:00:45,239] {scheduler_job.py:1562} INFO - Processing file /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py for tasks to queue
+[2020-09-26 17:00:45,241] {logging_mixin.py:112} INFO - [2020-09-26 17:00:45,240] {dagbag.py:396} INFO - Filling up the DagBag from /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:00:45,253] {logging_mixin.py:112} INFO - [2020-09-26 17:00:45,251] {dagbag.py:239} ERROR - Failed to import: /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+Traceback (most recent call last):
+  File "/Users/jingyizhou/opt/anaconda3/envs/airflow-tutorial/lib/python3.7/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/jingyizhou/opt/anaconda3/envs/airflow-tutorial/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py", line 85, in <module>
+    list_files >> load_data >> create_table >> move_files
+NameError: name 'move_files' is not defined
+[2020-09-26 17:00:45,256] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:00:45,272] {scheduler_job.py:162} INFO - Processing /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py took 0.044 seconds
+[2020-09-26 17:00:49,255] {scheduler_job.py:154} INFO - Started process (PID=21198) to work on /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:00:49,266] {scheduler_job.py:1562} INFO - Processing file /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py for tasks to queue
+[2020-09-26 17:00:49,268] {logging_mixin.py:112} INFO - [2020-09-26 17:00:49,267] {dagbag.py:396} INFO - Filling up the DagBag from /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:00:49,282] {logging_mixin.py:112} INFO - [2020-09-26 17:00:49,280] {dagbag.py:239} ERROR - Failed to import: /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+Traceback (most recent call last):
+  File "/Users/jingyizhou/opt/anaconda3/envs/airflow-tutorial/lib/python3.7/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/jingyizhou/opt/anaconda3/envs/airflow-tutorial/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py", line 85, in <module>
+    list_files >> load_data >> create_table >> move_files
+NameError: name 'move_files' is not defined
+[2020-09-26 17:00:49,284] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:00:49,301] {scheduler_job.py:162} INFO - Processing /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py took 0.046 seconds
+[2020-09-26 17:00:53,261] {scheduler_job.py:154} INFO - Started process (PID=21203) to work on /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:00:53,271] {scheduler_job.py:1562} INFO - Processing file /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py for tasks to queue
+[2020-09-26 17:00:53,273] {logging_mixin.py:112} INFO - [2020-09-26 17:00:53,273] {dagbag.py:396} INFO - Filling up the DagBag from /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:00:53,286] {logging_mixin.py:112} INFO - [2020-09-26 17:00:53,284] {dagbag.py:239} ERROR - Failed to import: /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+Traceback (most recent call last):
+  File "/Users/jingyizhou/opt/anaconda3/envs/airflow-tutorial/lib/python3.7/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/jingyizhou/opt/anaconda3/envs/airflow-tutorial/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py", line 85, in <module>
+    list_files >> load_data >> create_table >> move_files
+NameError: name 'move_files' is not defined
+[2020-09-26 17:00:53,288] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:00:53,304] {scheduler_job.py:162} INFO - Processing /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py took 0.043 seconds
+[2020-09-26 17:00:57,273] {scheduler_job.py:154} INFO - Started process (PID=21220) to work on /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:00:57,283] {scheduler_job.py:1562} INFO - Processing file /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py for tasks to queue
+[2020-09-26 17:00:57,285] {logging_mixin.py:112} INFO - [2020-09-26 17:00:57,284] {dagbag.py:396} INFO - Filling up the DagBag from /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:00:57,297] {logging_mixin.py:112} INFO - [2020-09-26 17:00:57,295] {dagbag.py:239} ERROR - Failed to import: /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+Traceback (most recent call last):
+  File "/Users/jingyizhou/opt/anaconda3/envs/airflow-tutorial/lib/python3.7/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/jingyizhou/opt/anaconda3/envs/airflow-tutorial/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py", line 85, in <module>
+    list_files >> load_data >> create_table >> move_files
+NameError: name 'move_files' is not defined
+[2020-09-26 17:00:57,299] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:00:57,314] {scheduler_job.py:162} INFO - Processing /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py took 0.042 seconds
+[2020-09-26 17:01:01,292] {scheduler_job.py:154} INFO - Started process (PID=21232) to work on /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:01:01,302] {scheduler_job.py:1562} INFO - Processing file /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py for tasks to queue
+[2020-09-26 17:01:01,305] {logging_mixin.py:112} INFO - [2020-09-26 17:01:01,304] {dagbag.py:396} INFO - Filling up the DagBag from /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:01:01,317] {logging_mixin.py:112} INFO - [2020-09-26 17:01:01,316] {dagbag.py:239} ERROR - Failed to import: /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+Traceback (most recent call last):
+  File "/Users/jingyizhou/opt/anaconda3/envs/airflow-tutorial/lib/python3.7/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/jingyizhou/opt/anaconda3/envs/airflow-tutorial/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py", line 85, in <module>
+    list_files >> load_data >> create_table >> move_files
+NameError: name 'move_files' is not defined
+[2020-09-26 17:01:01,320] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:01:01,337] {scheduler_job.py:162} INFO - Processing /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py took 0.045 seconds
+[2020-09-26 17:01:05,304] {scheduler_job.py:154} INFO - Started process (PID=21245) to work on /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:01:05,315] {scheduler_job.py:1562} INFO - Processing file /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py for tasks to queue
+[2020-09-26 17:01:05,317] {logging_mixin.py:112} INFO - [2020-09-26 17:01:05,316] {dagbag.py:396} INFO - Filling up the DagBag from /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:01:05,332] {logging_mixin.py:112} INFO - [2020-09-26 17:01:05,330] {dagbag.py:239} ERROR - Failed to import: /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+Traceback (most recent call last):
+  File "/Users/jingyizhou/opt/anaconda3/envs/airflow-tutorial/lib/python3.7/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/jingyizhou/opt/anaconda3/envs/airflow-tutorial/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py", line 85, in <module>
+    list_files >> load_data >> create_table >> move_files
+NameError: name 'move_files' is not defined
+[2020-09-26 17:01:05,334] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:01:05,349] {scheduler_job.py:162} INFO - Processing /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py took 0.045 seconds
+[2020-09-26 17:01:09,328] {scheduler_job.py:154} INFO - Started process (PID=21250) to work on /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:01:09,338] {scheduler_job.py:1562} INFO - Processing file /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py for tasks to queue
+[2020-09-26 17:01:09,340] {logging_mixin.py:112} INFO - [2020-09-26 17:01:09,339] {dagbag.py:396} INFO - Filling up the DagBag from /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:01:09,352] {logging_mixin.py:112} INFO - [2020-09-26 17:01:09,350] {dagbag.py:239} ERROR - Failed to import: /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+Traceback (most recent call last):
+  File "/Users/jingyizhou/opt/anaconda3/envs/airflow-tutorial/lib/python3.7/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/jingyizhou/opt/anaconda3/envs/airflow-tutorial/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py", line 85, in <module>
+    list_files >> load_data >> create_table >> move_files
+NameError: name 'move_files' is not defined
+[2020-09-26 17:01:09,354] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:01:09,370] {scheduler_job.py:162} INFO - Processing /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py took 0.042 seconds
+[2020-09-26 17:01:13,330] {scheduler_job.py:154} INFO - Started process (PID=21262) to work on /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:01:13,340] {scheduler_job.py:1562} INFO - Processing file /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py for tasks to queue
+[2020-09-26 17:01:13,341] {logging_mixin.py:112} INFO - [2020-09-26 17:01:13,341] {dagbag.py:396} INFO - Filling up the DagBag from /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:01:13,354] {logging_mixin.py:112} INFO - [2020-09-26 17:01:13,352] {dagbag.py:239} ERROR - Failed to import: /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+Traceback (most recent call last):
+  File "/Users/jingyizhou/opt/anaconda3/envs/airflow-tutorial/lib/python3.7/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/jingyizhou/opt/anaconda3/envs/airflow-tutorial/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py", line 85, in <module>
+    list_files >> load_data >> create_table >> move_files
+NameError: name 'move_files' is not defined
+[2020-09-26 17:01:13,356] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:01:13,371] {scheduler_job.py:162} INFO - Processing /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py took 0.041 seconds
+[2020-09-26 17:01:17,346] {scheduler_job.py:154} INFO - Started process (PID=21274) to work on /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:01:17,359] {scheduler_job.py:1562} INFO - Processing file /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py for tasks to queue
+[2020-09-26 17:01:17,361] {logging_mixin.py:112} INFO - [2020-09-26 17:01:17,360] {dagbag.py:396} INFO - Filling up the DagBag from /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:01:17,386] {logging_mixin.py:112} INFO - [2020-09-26 17:01:17,383] {dagbag.py:239} ERROR - Failed to import: /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+Traceback (most recent call last):
+  File "/Users/jingyizhou/opt/anaconda3/envs/airflow-tutorial/lib/python3.7/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/jingyizhou/opt/anaconda3/envs/airflow-tutorial/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py", line 85, in <module>
+    list_files >> load_data >> create_table >> move_files
+NameError: name 'move_files' is not defined
+[2020-09-26 17:01:17,390] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:01:17,408] {scheduler_job.py:162} INFO - Processing /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py took 0.062 seconds
+[2020-09-26 17:01:21,354] {scheduler_job.py:154} INFO - Started process (PID=21287) to work on /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:01:21,365] {scheduler_job.py:1562} INFO - Processing file /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py for tasks to queue
+[2020-09-26 17:01:21,367] {logging_mixin.py:112} INFO - [2020-09-26 17:01:21,366] {dagbag.py:396} INFO - Filling up the DagBag from /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:01:21,379] {logging_mixin.py:112} INFO - [2020-09-26 17:01:21,377] {dagbag.py:239} ERROR - Failed to import: /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+Traceback (most recent call last):
+  File "/Users/jingyizhou/opt/anaconda3/envs/airflow-tutorial/lib/python3.7/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/jingyizhou/opt/anaconda3/envs/airflow-tutorial/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py", line 85, in <module>
+    list_files >> load_data >> create_table >> move_files
+NameError: name 'move_files' is not defined
+[2020-09-26 17:01:21,382] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:01:21,396] {scheduler_job.py:162} INFO - Processing /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py took 0.043 seconds
+[2020-09-26 17:01:25,371] {scheduler_job.py:154} INFO - Started process (PID=21292) to work on /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:01:25,381] {scheduler_job.py:1562} INFO - Processing file /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py for tasks to queue
+[2020-09-26 17:01:25,383] {logging_mixin.py:112} INFO - [2020-09-26 17:01:25,382] {dagbag.py:396} INFO - Filling up the DagBag from /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:01:25,395] {logging_mixin.py:112} INFO - [2020-09-26 17:01:25,394] {dagbag.py:239} ERROR - Failed to import: /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+Traceback (most recent call last):
+  File "/Users/jingyizhou/opt/anaconda3/envs/airflow-tutorial/lib/python3.7/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/jingyizhou/opt/anaconda3/envs/airflow-tutorial/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py", line 85, in <module>
+    list_files >> load_data >> create_table >> move_files
+NameError: name 'move_files' is not defined
+[2020-09-26 17:01:25,398] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:01:25,414] {scheduler_job.py:162} INFO - Processing /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py took 0.043 seconds
+[2020-09-26 17:01:29,394] {scheduler_job.py:154} INFO - Started process (PID=21304) to work on /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:01:29,405] {scheduler_job.py:1562} INFO - Processing file /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py for tasks to queue
+[2020-09-26 17:01:29,406] {logging_mixin.py:112} INFO - [2020-09-26 17:01:29,406] {dagbag.py:396} INFO - Filling up the DagBag from /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:01:29,419] {logging_mixin.py:112} INFO - [2020-09-26 17:01:29,417] {dagbag.py:239} ERROR - Failed to import: /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+Traceback (most recent call last):
+  File "/Users/jingyizhou/opt/anaconda3/envs/airflow-tutorial/lib/python3.7/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/jingyizhou/opt/anaconda3/envs/airflow-tutorial/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py", line 85, in <module>
+    list_files >> load_data >> create_table >> move_files
+NameError: name 'move_files' is not defined
+[2020-09-26 17:01:29,421] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:01:29,436] {scheduler_job.py:162} INFO - Processing /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py took 0.042 seconds
+[2020-09-26 17:01:33,396] {scheduler_job.py:154} INFO - Started process (PID=21317) to work on /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:01:33,404] {scheduler_job.py:1562} INFO - Processing file /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py for tasks to queue
+[2020-09-26 17:01:33,405] {logging_mixin.py:112} INFO - [2020-09-26 17:01:33,405] {dagbag.py:396} INFO - Filling up the DagBag from /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:01:33,414] {logging_mixin.py:112} INFO - [2020-09-26 17:01:33,413] {dagbag.py:239} ERROR - Failed to import: /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+Traceback (most recent call last):
+  File "/Users/jingyizhou/opt/anaconda3/envs/airflow-tutorial/lib/python3.7/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/jingyizhou/opt/anaconda3/envs/airflow-tutorial/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py", line 85, in <module>
+    list_files >> load_data >> create_table >> move_files
+NameError: name 'move_files' is not defined
+[2020-09-26 17:01:33,415] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:01:33,427] {scheduler_job.py:162} INFO - Processing /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py took 0.031 seconds
+[2020-09-26 17:01:37,413] {scheduler_job.py:154} INFO - Started process (PID=21330) to work on /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:01:37,424] {scheduler_job.py:1562} INFO - Processing file /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py for tasks to queue
+[2020-09-26 17:01:37,425] {logging_mixin.py:112} INFO - [2020-09-26 17:01:37,425] {dagbag.py:396} INFO - Filling up the DagBag from /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:01:37,440] {logging_mixin.py:112} INFO - [2020-09-26 17:01:37,438] {dagbag.py:239} ERROR - Failed to import: /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+Traceback (most recent call last):
+  File "/Users/jingyizhou/opt/anaconda3/envs/airflow-tutorial/lib/python3.7/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/jingyizhou/opt/anaconda3/envs/airflow-tutorial/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py", line 85, in <module>
+    list_files >> load_data >> create_table >> move_files
+NameError: name 'move_files' is not defined
+[2020-09-26 17:01:37,442] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:01:37,459] {scheduler_job.py:162} INFO - Processing /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py took 0.046 seconds
+[2020-09-26 17:01:41,427] {scheduler_job.py:154} INFO - Started process (PID=21342) to work on /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:01:41,437] {scheduler_job.py:1562} INFO - Processing file /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py for tasks to queue
+[2020-09-26 17:01:41,440] {logging_mixin.py:112} INFO - [2020-09-26 17:01:41,439] {dagbag.py:396} INFO - Filling up the DagBag from /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:01:41,454] {logging_mixin.py:112} INFO - [2020-09-26 17:01:41,451] {dagbag.py:239} ERROR - Failed to import: /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+Traceback (most recent call last):
+  File "/Users/jingyizhou/opt/anaconda3/envs/airflow-tutorial/lib/python3.7/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/jingyizhou/opt/anaconda3/envs/airflow-tutorial/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py", line 85, in <module>
+    list_files >> load_data >> create_table >> move_files
+NameError: name 'move_files' is not defined
+[2020-09-26 17:01:41,457] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:01:41,474] {scheduler_job.py:162} INFO - Processing /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py took 0.047 seconds
+[2020-09-26 17:01:45,445] {scheduler_job.py:154} INFO - Started process (PID=21346) to work on /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:01:45,455] {scheduler_job.py:1562} INFO - Processing file /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py for tasks to queue
+[2020-09-26 17:01:45,456] {logging_mixin.py:112} INFO - [2020-09-26 17:01:45,456] {dagbag.py:396} INFO - Filling up the DagBag from /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:01:45,469] {logging_mixin.py:112} INFO - [2020-09-26 17:01:45,467] {dagbag.py:239} ERROR - Failed to import: /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+Traceback (most recent call last):
+  File "/Users/jingyizhou/opt/anaconda3/envs/airflow-tutorial/lib/python3.7/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/jingyizhou/opt/anaconda3/envs/airflow-tutorial/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py", line 85, in <module>
+    list_files >> load_data >> create_table >> move_files
+NameError: name 'move_files' is not defined
+[2020-09-26 17:01:45,471] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:01:45,487] {scheduler_job.py:162} INFO - Processing /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py took 0.043 seconds
+[2020-09-26 17:01:49,471] {scheduler_job.py:154} INFO - Started process (PID=21358) to work on /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:01:49,482] {scheduler_job.py:1562} INFO - Processing file /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py for tasks to queue
+[2020-09-26 17:01:49,484] {logging_mixin.py:112} INFO - [2020-09-26 17:01:49,483] {dagbag.py:396} INFO - Filling up the DagBag from /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:01:49,497] {logging_mixin.py:112} INFO - [2020-09-26 17:01:49,495] {dagbag.py:239} ERROR - Failed to import: /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+Traceback (most recent call last):
+  File "/Users/jingyizhou/opt/anaconda3/envs/airflow-tutorial/lib/python3.7/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/jingyizhou/opt/anaconda3/envs/airflow-tutorial/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py", line 85, in <module>
+    list_files >> load_data >> create_table >> move_files
+NameError: name 'move_files' is not defined
+[2020-09-26 17:01:49,499] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:01:49,514] {scheduler_job.py:162} INFO - Processing /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py took 0.043 seconds
+[2020-09-26 17:01:53,475] {scheduler_job.py:154} INFO - Started process (PID=21371) to work on /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:01:53,485] {scheduler_job.py:1562} INFO - Processing file /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py for tasks to queue
+[2020-09-26 17:01:53,487] {logging_mixin.py:112} INFO - [2020-09-26 17:01:53,486] {dagbag.py:396} INFO - Filling up the DagBag from /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:01:53,499] {logging_mixin.py:112} INFO - [2020-09-26 17:01:53,497] {dagbag.py:239} ERROR - Failed to import: /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+Traceback (most recent call last):
+  File "/Users/jingyizhou/opt/anaconda3/envs/airflow-tutorial/lib/python3.7/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/jingyizhou/opt/anaconda3/envs/airflow-tutorial/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py", line 85, in <module>
+    list_files >> load_data >> create_table >> move_files
+NameError: name 'move_files' is not defined
+[2020-09-26 17:01:53,501] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:01:53,519] {scheduler_job.py:162} INFO - Processing /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py took 0.044 seconds
+[2020-09-26 17:01:57,489] {scheduler_job.py:154} INFO - Started process (PID=21376) to work on /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:01:57,500] {scheduler_job.py:1562} INFO - Processing file /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py for tasks to queue
+[2020-09-26 17:01:57,503] {logging_mixin.py:112} INFO - [2020-09-26 17:01:57,502] {dagbag.py:396} INFO - Filling up the DagBag from /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:01:57,516] {logging_mixin.py:112} INFO - [2020-09-26 17:01:57,514] {dagbag.py:239} ERROR - Failed to import: /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+Traceback (most recent call last):
+  File "/Users/jingyizhou/opt/anaconda3/envs/airflow-tutorial/lib/python3.7/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/jingyizhou/opt/anaconda3/envs/airflow-tutorial/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py", line 85, in <module>
+    list_files >> load_data >> create_table >> move_files
+NameError: name 'move_files' is not defined
+[2020-09-26 17:01:57,520] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:01:57,537] {scheduler_job.py:162} INFO - Processing /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py took 0.048 seconds
+[2020-09-26 17:02:01,501] {scheduler_job.py:154} INFO - Started process (PID=21388) to work on /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:02:01,512] {scheduler_job.py:1562} INFO - Processing file /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py for tasks to queue
+[2020-09-26 17:02:01,514] {logging_mixin.py:112} INFO - [2020-09-26 17:02:01,513] {dagbag.py:396} INFO - Filling up the DagBag from /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:02:01,528] {logging_mixin.py:112} INFO - [2020-09-26 17:02:01,526] {dagbag.py:239} ERROR - Failed to import: /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+Traceback (most recent call last):
+  File "/Users/jingyizhou/opt/anaconda3/envs/airflow-tutorial/lib/python3.7/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/jingyizhou/opt/anaconda3/envs/airflow-tutorial/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py", line 85, in <module>
+    list_files >> load_data >> create_table >> move_files
+NameError: name 'move_files' is not defined
+[2020-09-26 17:02:01,530] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:02:01,547] {scheduler_job.py:162} INFO - Processing /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py took 0.046 seconds
+[2020-09-26 17:02:05,518] {scheduler_job.py:154} INFO - Started process (PID=21404) to work on /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:02:05,529] {scheduler_job.py:1562} INFO - Processing file /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py for tasks to queue
+[2020-09-26 17:02:05,531] {logging_mixin.py:112} INFO - [2020-09-26 17:02:05,530] {dagbag.py:396} INFO - Filling up the DagBag from /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:02:05,547] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['bigquery_data_load']) retrieved from /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:02:05,585] {scheduler_job.py:1284} INFO - Processing bigquery_data_load
+[2020-09-26 17:02:05,618] {scheduler_job.py:1294} INFO - Created <DagRun bigquery_data_load @ 2020-09-26T23:00:00+00:00: scheduled__2020-09-26T23:00:00+00:00, externally triggered: False>
+[2020-09-26 17:02:05,621] {scheduler_job.py:759} INFO - Examining DAG run <DagRun bigquery_data_load @ 2020-09-26 23:00:00+00:00: scheduled__2020-09-26T23:00:00+00:00, externally triggered: False>
+[2020-09-26 17:02:05,642] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: bigquery_data_load> because no tasks in DAG have SLAs
+[2020-09-26 17:02:05,646] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: bigquery_data_load.list_files 2020-09-26 23:00:00+00:00 [scheduled]> in ORM
+[2020-09-26 17:02:05,654] {scheduler_job.py:162} INFO - Processing /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py took 0.136 seconds
+[2020-09-26 17:02:21,624] {scheduler_job.py:154} INFO - Started process (PID=21554) to work on /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:02:21,635] {scheduler_job.py:1562} INFO - Processing file /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py for tasks to queue
+[2020-09-26 17:02:21,637] {logging_mixin.py:112} INFO - [2020-09-26 17:02:21,636] {dagbag.py:396} INFO - Filling up the DagBag from /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:02:21,655] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['bigquery_data_load']) retrieved from /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:02:21,684] {scheduler_job.py:1284} INFO - Processing bigquery_data_load
+[2020-09-26 17:02:21,689] {scheduler_job.py:759} INFO - Examining DAG run <DagRun bigquery_data_load @ 2020-09-26 23:00:00+00:00: scheduled__2020-09-26T23:00:00+00:00, externally triggered: False>
+[2020-09-26 17:02:21,715] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: bigquery_data_load> because no tasks in DAG have SLAs
+[2020-09-26 17:02:21,718] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: bigquery_data_load.load_data 2020-09-26 23:00:00+00:00 [scheduled]> in ORM
+[2020-09-26 17:02:21,726] {scheduler_job.py:162} INFO - Processing /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py took 0.102 seconds
+[2020-09-26 17:02:36,341] {scheduler_job.py:154} INFO - Started process (PID=21571) to work on /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:02:36,348] {scheduler_job.py:1562} INFO - Processing file /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py for tasks to queue
+[2020-09-26 17:02:36,349] {logging_mixin.py:112} INFO - [2020-09-26 17:02:36,349] {dagbag.py:396} INFO - Filling up the DagBag from /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:02:36,360] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['bigquery_data_load']) retrieved from /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py
+[2020-09-26 17:02:36,385] {scheduler_job.py:1284} INFO - Processing bigquery_data_load
+[2020-09-26 17:02:36,390] {scheduler_job.py:759} INFO - Examining DAG run <DagRun bigquery_data_load @ 2020-09-26 23:00:00+00:00: scheduled__2020-09-26T23:00:00+00:00, externally triggered: False>
+[2020-09-26 17:02:36,411] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: bigquery_data_load> because no tasks in DAG have SLAs
+[2020-09-26 17:02:36,414] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: bigquery_data_load.create_table 2020-09-26 23:00:00+00:00 [scheduled]> in ORM
+[2020-09-26 17:02:36,421] {scheduler_job.py:162} INFO - Processing /Users/jingyizhou/desktop/airflow-tutorial/dags/bigquery_data_load.py took 0.080 seconds

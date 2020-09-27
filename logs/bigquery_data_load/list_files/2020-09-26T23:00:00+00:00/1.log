@@ -1,0 +1,13 @@
+[2020-09-26 17:02:10,311] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: bigquery_data_load.list_files 2020-09-26T23:00:00+00:00 [queued]>
+[2020-09-26 17:02:10,320] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: bigquery_data_load.list_files 2020-09-26T23:00:00+00:00 [queued]>
+[2020-09-26 17:02:10,320] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-09-26 17:02:10,320] {taskinstance.py:880} INFO - Starting attempt 1 of 1
+[2020-09-26 17:02:10,320] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-09-26 17:02:10,329] {taskinstance.py:900} INFO - Executing <Task(PythonOperator): list_files> on 2020-09-26T23:00:00+00:00
+[2020-09-26 17:02:10,333] {standard_task_runner.py:53} INFO - Started process 21411 to run task
+[2020-09-26 17:02:10,402] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: bigquery_data_load.list_files 2020-09-26T23:00:00+00:00 [running]> 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
+[2020-09-26 17:02:10,826] {python_operator.py:114} INFO - Done. Returned value was: ['4649493c.csv', 'c876bd01.csv']
+[2020-09-26 17:02:10,842] {taskinstance.py:1065} INFO - Marking task as SUCCESS.dag_id=bigquery_data_load, task_id=list_files, execution_date=20200926T230000, start_date=20200927T000210, end_date=20200927T000210
+[2020-09-26 17:02:20,312] {logging_mixin.py:112} INFO - [2020-09-26 17:02:20,311] {local_task_job.py:103} INFO - Task exited with return code 0

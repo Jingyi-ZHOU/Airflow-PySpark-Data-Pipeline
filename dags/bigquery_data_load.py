@@ -7,7 +7,7 @@ from airflow.contrib.operators.bigquery_operator import BigQueryOperator
 
 from airflow.utils.dates import days_ago
 
-default_arguments = {"owner": "Jingyi Zhou", "start_date": days_ago(1)}
+default_arguments = {"owner": name, "start_date": days_ago(1)}
 
 def list_objects(bucket=None):
     hook = GoogleCloudStorageHook()

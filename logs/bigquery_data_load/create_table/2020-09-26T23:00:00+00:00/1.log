@@ -21,3 +21,4 @@
         
 [2020-09-26 17:02:41,653] {logging_mixin.py:112} INFO - [2020-09-26 17:02:41,651] {bigquery_hook.py:1347} INFO - Waiting for job to complete : pika-airflow-tutorial, job_UXUmknM-S-IPfqjCN8838owEFx4A
 [2020-09-26 17:02:47,173] {taskinstance.py:1065} INFO - Marking task as SUCCESS.dag_id=bigquery_data_load, task_id=create_table, execution_date=20200926T230000, start_date=20200927T000240, end_date=20200927T000247
+[2020-09-26 17:02:50,112] {logging_mixin.py:112} INFO - [2020-09-26 17:02:50,111] {local_task_job.py:103} INFO - Task exited with return code 0
